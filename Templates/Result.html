@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BILGUI CFAT Results</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%; /* Set the width of the table (You can use a percentage or a fixed value in pixels) */
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left; /* Corrected text align property */
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>BILGUI CFAT Results</h1> <!-- Title is now placed within the body section -->
+
+    <table>
+        <tr>
+            <th>Sr.No</th>
+            <th>Test_case</th>
+            <th>Test_result</th>
+            <th>Result comments</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>URL_Check</td>
+            <td>{{url_result}}</td> <!-- Include the test results -->
+            <td>Comments</td> <!-- Include comments -->
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Login_check</td>
+            <td>{{login_result}}</td> <!-- Include the test results -->
+            <td>Comments</td> <!-- Include comments -->
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Fraud_check</td>
+            <td>{{fraud_result}}</td> <!-- Include the test results -->
+            <td>Comments</td> <!-- Include comments -->
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Embargo_check</td>
+            <td>{{embargo_result}}</td> <!-- Include the test results -->
+            <td>Comments</td> <!-- Include comments -->
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Camt_54_check</td>
+            <td>{{camt_54_result}}</td> <!-- Include the test results -->
+            <td>Comments</td> <!-- Include comments -->
+        </tr>
+         <tr>
+            <td>5</td>
+            <td>Transaction_view</td>
+            <td>{{transaction_view_result}}</td> <!-- Include the test results -->
+            <td>Comments</td> <!-- Include comments -->
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>dashboard_view</td>
+            <td>{{dashboard_view}}</td> <!-- Include the test results -->
+            <td>Comments</td> <!-- Include comments -->
+        </tr>
+
+    </table>
+</body>
+</html>

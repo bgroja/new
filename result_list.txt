@@ -1,0 +1,7 @@
+Url Check pass
+Login Successful
+Fraud check View is Ready for testing
+Embargo test passed
+No camt records loaded
+Records loaded
+Ready for testing
